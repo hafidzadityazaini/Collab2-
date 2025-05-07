@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elegant Content</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #2c3e50;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+      border-radius: 12px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      text-align: center;
+      color: #34495e;
+    }
+
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .text {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    .text p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+
+    .image {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    .image img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .content {
+        flex-direction: column;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Welcome to Our Modern Website</h1>
+    <div class="content">
+      <div class="text">
+        <p>
+          We craft digital experiences that blend design and function. Whether you're launching a startup or growing an established brand, we offer modern solutions tailored for success.
+        </p>
+        <p>
+          Our team is passionate about innovation, creativity, and results. Explore our services and see how we can help bring your vision to life.
+        </p>
+      </div>
+      <div class="image">
+        <img src="https://via.placeholder.com/500x300" alt="Modern workspace" />
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
